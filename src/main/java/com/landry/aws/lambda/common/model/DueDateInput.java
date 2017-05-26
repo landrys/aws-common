@@ -6,6 +6,8 @@ public class DueDateInput
 {
 	private List<Integer> vendorShipTimeIds;
 	private String store;
+	private Boolean reload;
+
 	public List<Integer> getVendorShipTimeIds()
 	{
 		return vendorShipTimeIds;
@@ -22,10 +24,18 @@ public class DueDateInput
 	{
 		this.store = store;
 	}
+	public Boolean getReload()
+	{
+		return reload;
+	}
+	public void setReload( Boolean reload )
+	{
+		this.reload = reload;
+	}
 	@Override
 	public String toString()
 	{
-		return "DueDateInput [vendorShipTimeIds=" + vendorShipTimeIds + ", store=" + store + "]";
+		return "DueDateInput [vendorShipTimeIds=" + vendorShipTimeIds + ", store=" + store + ", reload=" + reload + "]";
 	}
 
 }
