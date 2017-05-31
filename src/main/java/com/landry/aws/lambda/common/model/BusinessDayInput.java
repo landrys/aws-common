@@ -4,6 +4,7 @@ public class BusinessDayInput
 {
     private String date;
     private Integer businessDays;
+    private Boolean ping;
 
 	public String getDate()
 	{
@@ -20,6 +21,19 @@ public class BusinessDayInput
 	public void setBusinessDays( Integer businessDays )
 	{
 		this.businessDays = businessDays;
+	}
+	public Boolean getPing()
+	{
+		return ping;
+	}
+	public void setPing( Boolean ping )
+	{
+		this.ping = ping;
+	}
+	@Override
+	public String toString()
+	{
+		return "BusinessDayInput [date=" + date + ", businessDays=" + businessDays + ", ping=" + ping + "]";
 	}
 
 }

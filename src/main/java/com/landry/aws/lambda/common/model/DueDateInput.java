@@ -7,6 +7,7 @@ public class DueDateInput
 	private List<Integer> vendorShipTimeIds;
 	private String store;
 	private Boolean reload;
+	private Boolean ping;
 
 	public List<Integer> getVendorShipTimeIds()
 	{
@@ -35,7 +36,16 @@ public class DueDateInput
 	@Override
 	public String toString()
 	{
-		return "DueDateInput [vendorShipTimeIds=" + vendorShipTimeIds + ", store=" + store + ", reload=" + reload + "]";
+		return "DueDateInput [vendorShipTimeIds=" + vendorShipTimeIds + ", store=" + store + ", reload=" + reload
+				+ ", ping=" + ping + "]";
+	}
+	public Boolean getPing()
+	{
+		return ping;
+	}
+	public void setPing( Boolean ping )
+	{
+		this.ping = ping;
 	}
 
 }
