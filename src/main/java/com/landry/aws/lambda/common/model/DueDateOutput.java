@@ -2,6 +2,12 @@ package com.landry.aws.lambda.common.model;
 
 public class DueDateOutput extends Output
 {
+	public DueDateOutput()
+	{
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	private String arrivalDate;
 	private String nextOrderDate;
 	private int vendorShipTimeId;
