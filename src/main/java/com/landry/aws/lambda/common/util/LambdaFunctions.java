@@ -10,5 +10,7 @@ public interface LambdaFunctions
 	public static final String LC_PROXY = "lCProxy:PROD";
 	public static final String GET_LC_OAUTH_CLIENTS = "getLCOAuthClients:PROD";
 	public static final String LC_BUCKET_LEVEL_CHECKER = "checkLCBucketLevels:PROD";
+	public static final String LC_WORKORDERS = "getWorkordersFromLC:PROD";
+	public static final String LC_WORKORDER_STATUSES = "getAllWorkorderStatusesFromLC:PROD";
 
 }
