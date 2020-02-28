@@ -1,1 +1,1 @@
-## Landrys common code for AWS
+## OBSOLETE see aws-landrys
